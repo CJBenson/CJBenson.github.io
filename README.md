@@ -1,2 +1,2 @@
-# CJBEnson.github.io
-My Website
+# CJBenson.github.io
+Crane Benson
