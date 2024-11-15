@@ -1,5 +1,5 @@
 export const bio = [
-  "Hey there! I'm Crane Benson, a Game Systems Programmer, Technical Artist, and Student with experience in optimization and performance programming, shader programming, and mechanic design.",
+  "Hey there! I'm Crane Benson, a game systems programmer, technical artist, and student with experience in optimization and performance programming, shader programming, and mechanic design.",
   "I am driven by a strong desire to deliver fun, fulfilling, and polished experiences to both players and learners while challenging myself and actively improving.",
   "Feel free to reach out!",
 ];
@@ -25,7 +25,7 @@ export const skills = [
   },
   {
     title: "Version Control",
-    skillName: "GitHub, JIRA",
+    skillName: "GitHub, JIRA, Perforce",
     color: "7",
     percentage: "70",
   },
@@ -53,86 +53,86 @@ export const projects = {
   softwareProjects: [
     {
       projectName: "Magnussen Engine",
-      image: "images/programmingdiaries.png",
+      image: "images/magnussentanks.png",
       summary:
         "Developed a basic C++ 3D game engine, including a homemade graphics library and demo tank game.",
-      preview: "https://programmingdiaries.herokuapp.com/",
+      preview: "https://cjbenson.github.io/",
       techStack: ["C++", "DirectX 11", "HLSL"],
     },
     {
       projectName: "FABRIK Inverse Kinematics",
-      image: "images/findyourbank.png",
+      image: "images/ik.png",
       summary:
         "Developed a constrained FABRIK solver in the Magnussen Engine.",
-      preview: "https://clever-fermi-0d5d76.netlify.app",
+      preview: "https://cjbenson.github.io/",
       techStack: ["C++"],
     },
     {
       projectName: "Centipede Recreation",
-      image: "images/portfolio.png",
+      image: "images/centipede.png",
       summary:
         "Recreated the game Centipede from scratch using a tiny barebones engine.",
-      preview: "https://github.com/vinaysomawat/Travographer-Portal",
+      preview: "https://cjbenson.github.io/",
       techStack: ["C++"],
     },
   ],
   digitalGames: [
     {
       projectName: "Perfect Soup!",
-      image: "images/pizzaorderchatbot.png",
+      image: "images/perfectsoup.png",
       summary:
         "2D Platformer Metroidvania with smooth movement, complex map structure, and comprehensive dialogue and quest systems.",
-      preview: "https://github.com/vinaysomawat/Pizza-Ordering-ChatBot",
+      preview: "https://cjbenson.github.io/",
       techStack: ["Unity", "C#"],
     },
     {
       projectName: "Eels on Wheels",
-      image: "images/whatsappbot.jpg",
+      image: "images/eels.png",
       summary:
         "Physics-based co-op endless runner featuring simple but highly engineered controls.",
-      preview: "https://github.com/vinaysomawat/WhatsApp-Bot",
+      preview: "https://cranebean.itch.io/eelgame",
       techStack: ["Unity", "C#"],
     },
     {
       projectName: "DePaul VARC Lab Escape Room",
-      image: "images/billgenerator.png",
+      image: "images/escaperoom.png",
       summary:
         "Virtual reality escape room  for communications research with comprehensive interactivity using Unity's Autohand plugin.",
-      preview: "https://github.com/vinaysomawat/Bill-Generator",
+      preview: "https://github.com/CJBenson/VARC-Escape-Room",
       techStack: ["Unity", "C#", "Autohand"],
     },
     {
       projectName: "UIC Respirator Training Sim",
-      image: "images/billgenerator.png",
+      image: "images/uic.png",
       summary:
         "Simulation for UIC research on interactive respirator training as a more effective means than the existing OSHA framework.",
-      preview: "https://github.com/vinaysomawat/Bill-Generator",
+      preview: "https://github.com/DigiDepaul/UIC-Respirator-Game",
       techStack: ["Unity", "C#", "articy:draft"],
     },
     {
       projectName: "DePaul OSI Involvement Calculator",
-      image: "images/billgenerator.png",
+      image: "images/involvementcalculator.png",
       summary:
         "Questionnaire that returns campus groups of interest based on student's answers. Includes systems for reading and parsing spreadsheet data.",
-      preview: "https://github.com/vinaysomawat/Bill-Generator",
+      preview: "https://github.com/DigiDepaul/OSI-Calculator",
       techStack: ["Unity", "C#"],
     },
     {
       projectName: "DePaul 'Who Are You as a Learner?' Avatar Creator",
-      image: "images/billgenerator.png",
+      image: "images/avatar-creator.png",
       summary:
         "UI-based character avatar creator with image export capability.",
-      preview: "https://github.com/vinaysomawat/Bill-Generator",
+      preview: "https://digi-lab.itch.io/avatar-learner",
       techStack: ["Unity", "C#"],
     },
   ],
   physicalGames: [
     {
       projectName: "Buddy Abroad",
-      image: "images/nitwcse.jpg",
+      image: "images/buddyabroad.jpg",
       summary:
         "Card game with the purpose of helping inform students preparing for study abroad trips.",
-      preview: "https://github.com/vinaysomawat/NITW-CSE",
+      preview: "https://www.thegamecrafter.com/games/buddy-abroad",
       techStack: [],
     },
   ],
@@ -145,7 +145,7 @@ export const experience = [
     subtitle: "Lead Programmer",
     details: ["Programming serious and educational games alongside a small development team."],
     tags: ["Unity", "C#", "Jira"],
-    icon: "truck ",
+    icon: "qrcode ",
   }
 ];
 
@@ -203,7 +203,7 @@ export const footer = [
     data: [
        {
          text: "Linkedin",
-         link: "https://www.linkedin.com/in/vinaysomawat/",
+         link: "https://www.linkedin.com/in/crane-benson-3590431b5/",
        },
     //   {
     //     text: "Twitter",
