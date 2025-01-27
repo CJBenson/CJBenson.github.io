@@ -63,7 +63,7 @@ export const projects = {
       projectName: "FABRIK Inverse Kinematics",
       image: "images/ik.png",
       summary:
-        "Developed a constrained FABRIK solver in the Magnussen Engine.",
+        "Developed a constrained FABRIK solver in the Magnussen Engine.\r",
       preview: "https://cjbenson.github.io/",
       techStack: ["C++"],
     },
@@ -71,7 +71,7 @@ export const projects = {
       projectName: "Centipede Recreation",
       image: "images/centipede.png",
       summary:
-        "Recreated the game Centipede from scratch using a tiny barebones engine.",
+        "Recreated the game Centipede from scratch using the barebones TEAL engine.\r\r",
       preview: "https://cjbenson.github.io/",
       techStack: ["C++"],
     },
@@ -89,7 +89,7 @@ export const projects = {
       projectName: "Eels on Wheels",
       image: "images/eels.png",
       summary:
-        "Physics-based co-op endless runner featuring simple but highly engineered controls.",
+        "Physics-based co-op endless runner featuring simple but highly engineered controls.\r",
       preview: "https://cranebean.itch.io/eelgame",
       techStack: ["Unity", "C#"],
     },
@@ -113,7 +113,7 @@ export const projects = {
       projectName: "DePaul OSI Involvement Calculator",
       image: "images/involvementcalculator.png",
       summary:
-        "Questionnaire that returns campus groups of interest based on student's answers. Includes systems for reading and parsing spreadsheet data.",
+        "Questionnaire that returns campus groups of interest based on student's answers. Includes systems for reading and parsing spreadsheet data.\r",
       preview: "https://github.com/DigiDepaul/OSI-Calculator",
       techStack: ["Unity", "C#"],
     },
@@ -121,7 +121,7 @@ export const projects = {
       projectName: "DePaul 'Who Are You as a Learner?' Avatar Creator",
       image: "images/avatar-creator.png",
       summary:
-        "UI-based character avatar creator with image export capability.",
+        "UI-based character avatar creator with image export capability.\r\r",
       preview: "https://digi-lab.itch.io/avatar-learner",
       techStack: ["Unity", "C#"],
     },
@@ -131,9 +131,9 @@ export const projects = {
       projectName: "Buddy Abroad",
       image: "images/buddyabroad.jpg",
       summary:
-        "Card game with the purpose of helping inform students preparing for study abroad trips.",
+        "<b>Won Serious Play 2024 Gold Medal in Tabletop/Board Games.</b> Card game with the purpose of helping inform students preparing for study abroad trips.\r\r\r",
       preview: "https://www.thegamecrafter.com/games/buddy-abroad",
-      techStack: [],
+      techStack: ["Mechanic Design", "Graphic Design"],
     },
   ],
 };
