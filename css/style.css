@@ -168,8 +168,8 @@ figure figcaption {
 	height: auto;
 }
 #colorlib-aside .author-img {
-	width: 800px;
-	height: 800px;
+	width: 375px;
+	height: 375px;
 	margin: 0 auto;
 	margin-bottom: 30px;
 	-webkit-border-radius: 50%;
@@ -183,8 +183,8 @@ figure figcaption {
 	height: 100%; 
     object-fit: fill;
 	padding: 30px;
-	max-width: 800px;
-	max-height: 800px;
+	max-width: 375px;
+	max-height: 375px;
 }
 #colorlib-aside h1 {
 	font-family: "Raleway", sans-serif;
