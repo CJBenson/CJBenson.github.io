@@ -63,7 +63,7 @@ export const projects = {
       projectName: "FABRIK Inverse Kinematics",
       image: "images/ik.png",
       summary:
-        "Developed a constrained FABRIK solver in the Magnussen Engine.\r",
+        "Developed a constrained FABRIK solver in the Magnussen Engine.",
       preview: "https://cjbenson.github.io/",
       techStack: ["C++"],
     },
@@ -71,7 +71,7 @@ export const projects = {
       projectName: "Centipede Recreation",
       image: "images/centipede.png",
       summary:
-        "Recreated the game Centipede from scratch using the barebones TEAL engine.\r\r",
+        "Recreated the classic arcade game Centipede from scratch using the barebones TEAL engine.",
       preview: "https://cjbenson.github.io/",
       techStack: ["C++"],
     },
@@ -89,7 +89,7 @@ export const projects = {
       projectName: "Eels on Wheels",
       image: "images/eels.png",
       summary:
-        "Physics-based co-op endless runner featuring simple but highly engineered controls.\r",
+        "Physics-based co-op endless runner featuring simple but highly engineered controls.",
       preview: "https://cranebean.itch.io/eelgame",
       techStack: ["Unity", "C#"],
     },
@@ -97,7 +97,7 @@ export const projects = {
       projectName: "DePaul VARC Lab Escape Room",
       image: "images/escaperoom.png",
       summary:
-        "Virtual reality escape room  for communications research with comprehensive interactivity using Unity's Autohand plugin.",
+        "Virtual reality escape room for communications research with comprehensive interactivity using Unity's Autohand plugin.",
       preview: "https://github.com/CJBenson/VARC-Escape-Room",
       techStack: ["Unity", "C#", "Autohand"],
     },
@@ -106,24 +106,24 @@ export const projects = {
       image: "images/uic.png",
       summary:
         "Simulation for UIC research on interactive respirator training as a more effective means than the existing OSHA framework.",
-      preview: "https://github.com/DigiDepaul/UIC-Respirator-Game",
-      techStack: ["Unity", "C#", "articy:draft"],
+      preview: "https://digi-lab.itch.io/uic-respirator-training",
+      techStack: ["Unity", "C#", "articy:draft", "UI"],
     },
     {
       projectName: "DePaul OSI Involvement Calculator",
       image: "images/involvementcalculator.png",
       summary:
-        "Questionnaire that returns campus groups of interest based on student's answers. Includes systems for reading and parsing spreadsheet data.\r",
-      preview: "https://github.com/DigiDepaul/OSI-Calculator",
-      techStack: ["Unity", "C#"],
+        "Questionnaire that returns campus groups of interest based on student's answers. Includes systems for reading and parsing spreadsheet data as well as secure server-side email functionality with Node.js.",
+      preview: "https://digi-lab.itch.io/osi-calculator",
+      techStack: ["Unity", "C#", "Node.js", "UI"],
     },
     {
       projectName: "DePaul 'Who Are You as a Learner?' Avatar Creator",
       image: "images/avatar-creator.png",
       summary:
-        "UI-based character avatar creator with image export capability.\r\r",
+        "UI-based character avatar creator with image export capability.",
       preview: "https://digi-lab.itch.io/avatar-learner",
-      techStack: ["Unity", "C#"],
+      techStack: ["Unity", "C#", "UI"],
     },
   ],
   physicalGames: [
@@ -131,7 +131,7 @@ export const projects = {
       projectName: "Buddy Abroad",
       image: "images/buddyabroad.jpg",
       summary:
-        "<b>Won Serious Play 2024 Gold Medal in Tabletop/Board Games.</b> Card game with the purpose of helping inform students preparing for study abroad trips.\r\r\r",
+        "<b>Won Serious Play 2024 Gold Medal for Tabletop/Board Games.</b> Card game with the purpose of helping inform students preparing for study abroad trips.",
       preview: "https://www.thegamecrafter.com/games/buddy-abroad",
       techStack: ["Mechanic Design", "Graphic Design"],
     },
@@ -169,16 +169,20 @@ export const education = [
 
 export const footer = [
    {
-     label: "Dev Profiles",
+     label: "Links",
      data: [
        {
          text: "GitHub",
          link: "https://github.com/cjbenson",
        },
-//       {
-//         text: "LeetCode",
-//         link: "https://leetcode.com/somawatvinay/",
-//       },
+       {
+         text: "Linkedin",
+         link: "https://www.linkedin.com/in/crane-benson-3590431b5/",
+       },
+       {
+         text: "Bluesky",
+         link: "https://bsky.app/profile/eggfullofbees.bsky.social",
+       },
      ],
 //   },
 //   {
@@ -198,13 +202,10 @@ export const footer = [
 //       },
 //     ],
    },
-  {
-    label: "Links",
-    data: [
-       {
-         text: "Linkedin",
-         link: "https://www.linkedin.com/in/crane-benson-3590431b5/",
-       },
+//  {
+//    label: "Links",
+//    data: [
+
     //   {
     //     text: "Twitter",
     //     link: "https://twitter.com/thesigmakid",
@@ -217,8 +218,8 @@ export const footer = [
     //    text: "Github/vinaysomawat.github.io",
     //    link: "https://github.com/vinaysomawat/vinaysomawat.github.io",
     //  },
-    ],
-  },
+//    ],
+//  },
   {
     label: "copyright-text",
     data: [
