@@ -1,6 +1,6 @@
 export const bio = [
   "Hey there! I'm Crane Benson, a gameplay programmer, technical artist, and student with experience in optimization and performance programming, shader programming, and mechanic design.",
-  "I am driven by a strong desire to deliver fun, fulfilling, and polished experiences to both players and learners while challenging myself and actively improving. I love all forms of game development, but I have a determined passion for serious and learning games, experiences that transcend the entertainment/artistic space and serve a significant purpose.",
+  "I am driven by a strong desire to deliver fun, fulfilling, and polished experiences to both players and learners while challenging myself and actively improving. I love all forms of game development, but I have a determined passion for learning games, experiences that transcend the entertainment/artistic space and serve a significant purpose.",
   "Feel free to reach out!",
 ];
 
@@ -71,7 +71,7 @@ export const projects = {
       projectName: "Centipede Recreation",
       image: "images/centipede.png",
       summary:
-        "Recreated the classic arcade game Centipede from scratch. Developed entirely using C++ code with the barebones pure-C++ TEAL engine",
+        "Recreated the classic arcade game Centipede from scratch in C++ using the barebones TEAL engine.",
       preview: "https://cjbenson.github.io/",
       techStack: ["C++"],
     },
