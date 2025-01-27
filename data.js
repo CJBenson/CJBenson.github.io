@@ -83,7 +83,7 @@ export const projects = {
       summary:
         "2D Platformer Metroidvania with smooth movement, complex map structure, and comprehensive dialogue and quest systems.",
       preview: "https://cjbenson.github.io/",
-      techStack: ["Unity", "C#"],
+      techStack: ["Unity", "C#", "UI"],
     },
     {
       projectName: "Eels on Wheels",
