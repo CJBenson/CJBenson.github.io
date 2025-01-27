@@ -1,6 +1,6 @@
 export const bio = [
-  "Hey there! I'm Crane Benson, a game systems programmer, technical artist, and student with experience in optimization and performance programming, shader programming, and mechanic design.",
-  "I am driven by a strong desire to deliver fun, fulfilling, and polished experiences to both players and learners while challenging myself and actively improving.",
+  "Hey there! I'm Crane Benson, a gameplay programmer, technical artist, and student with experience in optimization and performance programming, shader programming, and mechanic design.",
+  "I am driven by a strong desire to deliver fun, fulfilling, and polished experiences to both players and learners while challenging myself and actively improving. I love all forms of game development, but I have a determined passion for serious and learning games, experiences that transcend the entertainment/artistic space and serve a significant purpose.",
   "Feel free to reach out!",
 ];
 
@@ -143,7 +143,7 @@ export const experience = [
     title: "DePaul Instructional Game and Innovation Lab (DIGILab)",
     duration: "March 2022 - Present",
     subtitle: "Lead Programmer",
-    details: ["Programming serious and educational games alongside a small development team."],
+    details: ["Programmed instructional games for classroom and research use alongside a tight-knit development team."],
     tags: ["Unity", "C#", "Jira"],
     icon: "qrcode ",
   }
