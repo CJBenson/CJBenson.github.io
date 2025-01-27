@@ -63,7 +63,7 @@ export const projects = {
       projectName: "FABRIK Inverse Kinematics",
       image: "images/ik.png",
       summary:
-        "Developed a constrained FABRIK solver in the Magnussen Engine.",
+        "Developd a simple and comprehensive constrained FABRIK solver in the Magnussen Engine.",
       preview: "https://cjbenson.github.io/",
       techStack: ["C++"],
     },
@@ -71,7 +71,7 @@ export const projects = {
       projectName: "Centipede Recreation",
       image: "images/centipede.png",
       summary:
-        "Recreated the classic arcade game Centipede from scratch using the barebones TEAL engine.",
+        "Recreated the classic arcade game Centipede from scratch. Developed entirely using C++ code with the barebones pure-C++ TEAL engine",
       preview: "https://cjbenson.github.io/",
       techStack: ["C++"],
     },
@@ -89,7 +89,7 @@ export const projects = {
       projectName: "Eels on Wheels",
       image: "images/eels.png",
       summary:
-        "Physics-based co-op endless runner featuring simple but highly engineered controls.",
+        "Physics-based co-op endless runner featuring simple but highly engineered controls. Features two eels attempting to ride a bicycle together, to mixed success.",
       preview: "https://cranebean.itch.io/eelgame",
       techStack: ["Unity", "C#"],
     },
@@ -121,7 +121,7 @@ export const projects = {
       projectName: "DePaul 'Who Are You as a Learner?' Avatar Creator",
       image: "images/avatar-creator.png",
       summary:
-        "UI-based character avatar creator with image export capability.",
+        "UI-based character avatar creator with various menus, color selection, and image export capability.",
       preview: "https://digi-lab.itch.io/avatar-learner",
       techStack: ["Unity", "C#", "UI"],
     },
