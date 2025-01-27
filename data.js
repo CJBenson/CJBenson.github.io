@@ -98,7 +98,7 @@ export const projects = {
       image: "images/escaperoom.png",
       summary:
         "Virtual reality escape room for communications research with comprehensive interactivity using Unity's Autohand plugin.",
-      preview: "https://github.com/CJBenson/VARC-Escape-Room",
+      preview: "https://github.com/CJBenson/DIGI-VARC-Escape-Room",
       techStack: ["Unity", "C#", "Autohand"],
     },
     {
