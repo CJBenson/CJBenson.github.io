@@ -1,5 +1,5 @@
 export const bio = [
-  "Hey there! I'm Crane Benson, a game programmer, technical artist, and student with experience in optimization and performance programming, shader programming, and mechanic design.",
+  "LASTEDIT: 2:32pm Hey there! I'm Crane Benson, a game programmer, technical artist, and student with experience in optimization and performance programming, shader programming, and mechanic design.",
   "I am driven by a strong desire to deliver fun, fulfilling, and polished experiences to both players and learners while challenging myself and actively improving. I love all forms of game development, but I have a determined passion for learning games, experiences that transcend the entertainment/artistic space and serve a significant purpose.",
   "Feel free to reach out!",
 ];
@@ -56,7 +56,7 @@ export const projects = {
       image: "images/magnussentanks.png",
       summary:
         "Developed a basic C++ 3D game engine, including a homemade graphics library and demo tank game.",
-      preview: "https://cjbenson.github.io/",
+      preview: "https://github.com/CJBenson/Magnussen-Engine",
       techStack: ["C++", "DirectX 11", "HLSL"],
     },
     {
@@ -72,7 +72,7 @@ export const projects = {
       image: "images/centipede.png",
       summary:
         "Recreated the classic arcade game Centipede from scratch in C++ using the barebones TEAL engine.",
-      preview: "https://cjbenson.github.io/",
+      preview: "https://github.com/CJBenson/Benson-Centipede",
       techStack: ["C++"],
     },
   ],
