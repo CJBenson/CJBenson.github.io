@@ -54,6 +54,7 @@ export const projects = {
     {
       projectName: "Magnussen Engine",
       image: "images/magnussentanks.png",
+      video: "https://www.youtube.com/embed/pCGNVLSN4to?si=KdkHU32ZmRMlRXee",
       summary:
         "Developed a basic C++ 3D game engine, including a homemade graphics library and demo tank game.",
       preview: "https://github.com/CJBenson/Magnussen-Engine",
@@ -62,14 +63,16 @@ export const projects = {
     {
       projectName: "FABRIK Inverse Kinematics",
       image: "images/ik.png",
+      video: "",
       summary:
-        "Developd a simple and comprehensive constrained FABRIK solver in the Magnussen Engine.",
+        "Developed a simple and comprehensive constrained FABRIK solver in the Magnussen Engine.",
       preview: "https://cjbenson.github.io/",
       techStack: ["C++"],
     },
     {
       projectName: "Centipede Recreation",
       image: "images/centipede.png",
+      video: "https://www.youtube.com/embed/jExn0od2SS8?si=wXY9DFhuQjpFO8Bx",
       summary:
         "Recreated the classic arcade game Centipede from scratch in C++ using the barebones TEAL engine.",
       preview: "https://github.com/CJBenson/Benson-Centipede",
@@ -96,6 +99,7 @@ export const projects = {
     {
       projectName: "DePaul VARC Lab Escape Room",
       image: "images/escaperoom.png",
+      video: "https://www.youtube.com/embed/mAUW4DdMD-s?si=JJZtom2y831tapsB",
       summary:
         "Virtual reality escape room for communications research with comprehensive interactivity using Unity's Autohand plugin.",
       preview: "https://github.com/CJBenson/DIGI-VARC-Escape-Room",

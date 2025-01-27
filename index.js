@@ -154,6 +154,10 @@ function populateProjects(items, id) {
   let img = document.createElement("img");
   img.className = "img-fluid";
 
+  let video = document.createElement("iframe");
+  video.className = "video-fluid";
+  video.allow = "accelerometer; clipboard-write; encrypted-media; picture-in-picture; web-share";
+
   let divResumeContentLeft = document.createElement("div");
   divResumeContentLeft.className = "resume-content";
   divResumeContentLeft.id = "left-div";
@@ -170,6 +174,7 @@ function populateProjects(items, id) {
 
   let divSubHeading = document.createElement("div");
   divSubHeading.className = "sub-heading";
+  divSubHeading.append(h4);
   divSubHeading.append(p);
   divSubHeading.append(divSpan);
   divResumeContentRight.append(divSubHeading);
@@ -178,6 +183,7 @@ function populateProjects(items, id) {
   divResumeItem.className = "resume-item";
   divResumeItem.append(divResumeContentLeft);
   divResumeItem.append(divResumeContentRight);
+  divResumeItem.append(video);
   a.append(divResumeItem);
 
   let divProjectCard = document.createElement("div");
@@ -194,6 +200,7 @@ function populateProjects(items, id) {
     a.href = items[i].preview;
 
     img.src = items[i].image;
+    video.src = items[i].video;
 
     p.innerHTML = items[i].summary;
 
