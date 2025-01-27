@@ -168,23 +168,24 @@ figure figcaption {
 	height: auto;
 }
 #colorlib-aside .author-img {
-	width: 375px;
-	height: 375px;
+	width: 250px;
+	height: 250px;
 	margin: 0 auto;
 	margin-bottom: 30px;
 	-webkit-border-radius: 50%;
 	-moz-border-radius: 50%;
 	-ms-border-radius: 50%;
 	border-radius: 50%;
-	border: 3px solid white;
+	/*border: 3px solid white;*/
 }
 
 #colorlib-aside .author-img img{
 	height: 100%; 
     object-fit: contain;
-	padding: 30px;
-	max-width: 375px;
-	max-height: 375px;
+	padding: 10px;
+	max-width: 230px;
+	max-height: 230px;
+	border: 3px solid white;
 }
 #colorlib-aside h1 {
 	font-family: "Raleway", sans-serif;
