@@ -97,7 +97,7 @@ export const projects = {
       techStack: ["Unity", "C#"],
     },
     {
-      projectName: "DePaul VARC Lab Escape Room",
+      projectName: "DePaul VARC Lab Escape Room Tech Demo",
       image: "images/escaperoom.png",
       summary:
         "Virtual reality escape room for communications research with comprehensive interactivity using Unity's Autohand plugin.",

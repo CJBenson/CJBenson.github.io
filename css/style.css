@@ -2133,6 +2133,8 @@ ul {
 	margin-left: 10%;
 	margin-right: 10%;
 	width: 76%;
+	max-width: 560px;
+	height: 315px;
 }
 
 span {
