@@ -31,7 +31,7 @@ export const skills = [
   },
   {
     title: "Technical",
-    skillName: "Unity, Unreal, Visual Studio, Maya",
+    skillName: "Unity, Unreal, Visual Studio, Maya, Blender",
     color: "4",
     percentage: "70",
   },
@@ -74,35 +74,6 @@ export const skills = [
 ];
 
 export const projects = {
-  softwareProjects: [
-    {
-      projectName: "Magnussen Engine",
-      image: "images/magnussentanks.png",
-      video: "https://www.youtube.com/embed/pCGNVLSN4to?si=KdkHU32ZmRMlRXee",
-      summary:
-        "Developed a basic C++ 3D game engine, including a homemade graphics library and demo tank game.",
-      preview: "https://github.com/CJBenson/Magnussen-Engine",
-      techStack: ["C++", "DirectX 11", "HLSL"],
-    },
-    {
-      projectName: "FABRIK Inverse Kinematics",
-      image: "images/ik.png",
-      video: "https://www.youtube.com/embed/4UHBbXpiQiI?si=bm-BErmLCa3hOlot",
-      summary:
-        "Developed a simple and comprehensive constrained FABRIK solver in the Magnussen Engine.",
-      preview: "https://cjbenson.github.io/",
-      techStack: ["C++"],
-    },
-    {
-      projectName: "Centipede Recreation",
-      image: "images/centipede.png",
-      video: "https://www.youtube.com/embed/jExn0od2SS8?si=wXY9DFhuQjpFO8Bx",
-      summary:
-        "Recreated the classic arcade game Centipede from scratch in C++ using the barebones TEAL engine.",
-      preview: "https://github.com/CJBenson/Benson-Centipede",
-      techStack: ["C++"],
-    },
-  ],
   digitalGames: [
     {
       projectName: "Perfect Soup!",
@@ -151,6 +122,35 @@ export const projects = {
         "UI-based character avatar creator with various menus, color selection, and image export capability.",
       preview: "https://digi-lab.itch.io/avatar-learner",
       techStack: ["Unity", "C#", "UI"],
+    },
+  ],
+  softwareProjects: [
+    {
+      projectName: "Magnussen Engine",
+      image: "images/magnussentanks.png",
+      video: "https://www.youtube.com/embed/pCGNVLSN4to?si=KdkHU32ZmRMlRXee",
+      summary:
+        "Developed a basic C++ 3D game engine, including a demo tank game.",
+      preview: "https://github.com/CJBenson/Magnussen-Engine",
+      techStack: ["C++", "DirectX 11", "HLSL"],
+    },
+    {
+      projectName: "FABRIK Inverse Kinematics",
+      image: "images/ik.png",
+      video: "https://www.youtube.com/embed/4UHBbXpiQiI?si=bm-BErmLCa3hOlot",
+      summary:
+        "Developed a simple and comprehensive FABRIK solver in the Magnussen Engine.",
+      preview: "https://cjbenson.github.io/",
+      techStack: ["C++"],
+    },
+    {
+      projectName: "Centipede Recreation",
+      image: "images/centipede.png",
+      video: "https://www.youtube.com/embed/jExn0od2SS8?si=wXY9DFhuQjpFO8Bx",
+      summary:
+        "Recreated the classic arcade game Centipede from scratch in C++ using the barebones TEAL engine.",
+      preview: "https://github.com/CJBenson/Benson-Centipede",
+      techStack: ["C++"],
     },
   ],
   physicalGames: [
