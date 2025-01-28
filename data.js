@@ -146,7 +146,13 @@ export const experience = [
     title: "DePaul Instructional Game and Innovation Lab (DIGILab)",
     duration: "March 2022 - Present",
     subtitle: "Lead Programmer",
-    details: ["Programmed instructional games for classroom and research use alongside a tight-knit development team."],
+    details: 
+    ["Programmed instructional games for classroom and research use.",
+     "Developed several 2D and 3D Unity projects, a handful of which were fully UI-based.",
+     "Worked alongside a tight-knit team to make experiences the best that they can be.",
+     "Took on several projects as the sole programmer",
+     "Interfaced with clients and made sure their expectations matched our team's capabilities."
+    ],
     tags: ["Unity", "C#", "Jira"],
     icon: "qrcode ",
   }
