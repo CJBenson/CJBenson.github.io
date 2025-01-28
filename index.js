@@ -119,10 +119,10 @@ function populateSkills(items, id) {
     const divProgress = getElement("div", "progress");
     const divProgressBar = getElement("div", `progress-bar color-${color}`);
     divProgressBar.style = `width: ${percentage}%`;
-    divProgress.append(divProgressBar);
+    //divProgress.append(divProgressBar);
 
     const divProgressWrap = getElement("div", "progress-wrap");
-    divProgressWrap.append(h3, divProgress);
+    divProgressWrap.append(h3/*, divProgress*/);
 
     const divAnimateBox = getElement("div", "col-md-6 animate-box");
     divAnimateBox.append(divProgressWrap);

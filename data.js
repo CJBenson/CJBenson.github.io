@@ -6,31 +6,55 @@ export const bio = [
 
 export const skills = [
   {
-    title: "Languages",
+    title: "Technical",
     skillName: "C++, C#, HLSL",
     color: "1",
     percentage: "80",
   },
   {
-    title: "Frameworks/Libraries",
+    title: "General",
+    skillName: "Creative Problem Solving",
+    color: "6",
+    percentage: "60",
+  },
+  {
+    title: "Technical",
     skillName: "DirectX 11",
     color: "6",
     percentage: "60",
   },
   {
-    title: "Software",
+    title: "General",
+    skillName: "Interdisciplinary Collaboration",
+    color: "6",
+    percentage: "60",
+  },
+  {
+    title: "Technical",
     skillName: "Unity, Unreal, Visual Studio, Maya",
     color: "4",
     percentage: "70",
   },
   {
-    title: "Version Control",
+    title: "General",
+    skillName: "Client Engagement",
+    color: "6",
+    percentage: "60",
+  },
+  {
+    title: "Technical",
     skillName: "GitHub, JIRA, Perforce",
     color: "7",
     percentage: "70",
   },
   {
-    title: "Other",
+    title: "General",
+    skillName: "Adaptability",
+    color: "6",
+    percentage: "60",
+  },
+  {
+    title: "Technical",
     skillName: "Optimization, Project Structuring, Prototyping",
     color: "3",
     percentage: "80",
@@ -150,8 +174,9 @@ export const experience = [
     ["Programmed instructional games for classroom and research use.",
      "Developed several 2D and 3D Unity projects, a handful of which were fully UI-based.",
      "Worked alongside a tight-knit team to make experiences the best that they can be.",
-     "Took on several projects as the sole programmer",
-     "Interfaced with clients and made sure their expectations matched our team's capabilities."
+     "Took on most digital projects as the sole programmer",
+     "Interfaced with clients and made sure their expectations matched our team's capabilities.",
+     "Continuous mentorship of a junior employee to fill my role upon graduation."
     ],
     tags: ["Unity", "C#", "Jira"],
     icon: "qrcode ",
