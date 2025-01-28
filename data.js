@@ -63,7 +63,7 @@ export const projects = {
     {
       projectName: "FABRIK Inverse Kinematics",
       image: "images/ik.png",
-      video: "",
+      video: "https://www.youtube.com/embed/4UHBbXpiQiI?si=bm-BErmLCa3hOlot",
       summary:
         "Developed a simple and comprehensive constrained FABRIK solver in the Magnussen Engine.",
       preview: "https://cjbenson.github.io/",
@@ -99,10 +99,9 @@ export const projects = {
     {
       projectName: "DePaul VARC Lab Escape Room",
       image: "images/escaperoom.png",
-      video: "https://www.youtube.com/embed/mAUW4DdMD-s?si=JJZtom2y831tapsB",
       summary:
         "Virtual reality escape room for communications research with comprehensive interactivity using Unity's Autohand plugin.",
-      preview: "https://github.com/CJBenson/DIGI-VARC-Escape-Room",
+      preview: "https://www.youtube.com/embed/mAUW4DdMD-s?si=JJZtom2y831tapsB",
       techStack: ["Unity", "C#", "Autohand"],
     },
     {
@@ -135,7 +134,7 @@ export const projects = {
       projectName: "Buddy Abroad",
       image: "images/buddyabroad.jpg",
       summary:
-        "<b>Won Serious Play 2024 Gold Medal for Tabletop/Board Games.</b> Card game with the purpose of helping inform students preparing for study abroad trips.",
+        "<b>Won Serious Play 2024 Gold Medal for Tabletop/Board Games.</b> Developed mechanics and helped balance card game with the purpose of helping inform students preparing for study abroad trips.",
       preview: "https://www.thegamecrafter.com/games/buddy-abroad",
       techStack: ["Mechanic Design", "Graphic Design"],
     },

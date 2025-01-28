@@ -183,7 +183,9 @@ function populateProjects(items, id) {
   divResumeItem.className = "resume-item";
   divResumeItem.append(divResumeContentLeft);
   divResumeItem.append(divResumeContentRight);
-  divResumeItem.append(video);
+  if(id == "web-projects")
+    divResumeItem.append(video);
+  
   a.append(divResumeItem);
 
   let divProjectCard = document.createElement("div");
