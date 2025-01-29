@@ -190,6 +190,7 @@ export const education = [
     subtitle: "DePaul University, Chicago",
     details: [],
     tags: [
+      "Practical Scripting for Games",
       "Data Structures",
       "Optimized C++",
       "Object-Oriented Game Development",
