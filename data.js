@@ -76,23 +76,7 @@ export const skills = [
 export const projects = {
   digitalGames: [
     {
-      projectName: "Perfect Soup!",
-      image: "images/perfectsoup.png",
-      summary:
-        "2D Platformer Metroidvania with smooth movement, complex map structure, and comprehensive dialogue and quest systems.",
-      preview: "https://cjbenson.github.io/",
-      techStack: ["Unity", "C#", "UI"],
-    },
-    {
-      projectName: "Eels on Wheels",
-      image: "images/eels.png",
-      summary:
-        "Physics-based co-op endless runner featuring simple but highly engineered controls. Features two eels attempting to ride a bicycle together, to mixed success.",
-      preview: "https://cranebean.itch.io/eelgame",
-      techStack: ["Unity", "C#"],
-    },
-    {
-      projectName: "DePaul VARC Lab Escape Room Tech Demo",
+      projectName: "DePaul VARC Lab Escape Room Demo",
       image: "images/escaperoom.png",
       summary:
         "Virtual reality escape room for communications research with comprehensive interactivity using Unity's Autohand plugin.",
@@ -106,6 +90,14 @@ export const projects = {
         "Simulation for UIC research on interactive respirator training as a more effective means than the existing OSHA framework.",
       preview: "https://digi-lab.itch.io/uic-respirator-training",
       techStack: ["Unity", "C#", "articy:draft", "UI"],
+    },
+    {
+      projectName: "Perfect Soup! (In Progress)",
+      image: "images/perfectsoup.png",
+      summary:
+        "2D Platformer Metroidvania with smooth movement, complex map structure, and comprehensive dialogue and quest systems.",
+      preview: "https://cjbenson.github.io/",
+      techStack: ["Unity", "C#", "UI"],
     },
     {
       projectName: "DePaul OSI Involvement Calculator",
@@ -122,6 +114,14 @@ export const projects = {
         "UI-based character avatar creator with various menus, color selection, and image export capability.",
       preview: "https://digi-lab.itch.io/avatar-learner",
       techStack: ["Unity", "C#", "UI"],
+    },
+    {
+      projectName: "Eels on Wheels",
+      image: "images/eels.png",
+      summary:
+        "Physics-based co-op endless runner featuring simple but highly engineered controls. Features two eels attempting to ride a bicycle together, to mixed success.",
+      preview: "https://cranebean.itch.io/eelgame",
+      techStack: ["Unity", "C#"],
     },
   ],
   softwareProjects: [
@@ -167,7 +167,7 @@ export const projects = {
 
 export const experience = [
   {
-    title: "DePaul Instructional Game and Innovation Lab (DIGILab)",
+    title: "DePaul Instructional Game and Innovation Lab (DIGI Lab)",
     duration: "March 2022 - Present",
     subtitle: "Lead Programmer",
     details: 
