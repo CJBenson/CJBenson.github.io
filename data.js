@@ -96,7 +96,7 @@ export const projects = {
       image: "images/perfectsoup.png",
       summary:
         "2D Platformer Metroidvania with smooth movement, complex map structure, and comprehensive dialogue and quest systems.",
-      preview: "https://cjbenson.github.io/",
+      preview: "https://www.youtube.com/embed/MS-Cs6degMM?si=Q4dItSqXtZagCm24",
       techStack: ["Unity", "C#", "UI"],
     },
     {
