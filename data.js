@@ -135,7 +135,7 @@ export const projects = {
     },
     {
       projectName: "Daedalus' Labyrinth",
-      image: "images/Labyrinth.jpg",
+      image: "images/Labyrinth.png",
       summary:
         "<b>Won Best Analog Game and Outstanding Achievement in Game Design at gamebIITes 2022.</b> Designed gameplay and built both prototype and final game board for cooperative strategy game.",
       preview: "https://www.youtube.com/embed/hW3w5i5IhAs?si=FNBjJVW9Jt3rbn4i",
