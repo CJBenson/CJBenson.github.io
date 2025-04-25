@@ -76,12 +76,20 @@ export const skills = [
 export const projects = {
   digitalGames: [
     {
-      projectName: "DePaul VARC Lab Escape Room Demo",
-      image: "images/escaperoom.png",
+      projectName: "Eels on Wheels",
+      image: "images/eels.png",
       summary:
-        "Virtual reality escape room for communications research with comprehensive interactivity using Unity's Autohand plugin.",
-      preview: "https://www.youtube.com/embed/mAUW4DdMD-s?si=JJZtom2y831tapsB",
-      techStack: ["Unity", "C#", "Autohand"],
+        "Physics-based co-op endless runner featuring simple but highly engineered controls. Features two eels attempting to ride a bicycle together, to mixed success.",
+      preview: "https://cranebean.itch.io/eelgame",
+      techStack: ["Unity", "C#", "Physics"],
+    },
+    {
+      projectName: "Perfect Soup!",
+      image: "images/perfectsoup.png",
+      summary:
+        "2D Platformer with smooth satisfying movement and a comprehensive dialogue and quest system.",
+      preview: "https://www.youtube.com/embed/MS-Cs6degMM?si=Q4dItSqXtZagCm24",
+      techStack: ["Unity", "C#", "UI", "Playtesting"],
     },
     {
       projectName: "UIC Respirator Training Sim",
@@ -92,12 +100,12 @@ export const projects = {
       techStack: ["Unity", "C#", "articy:draft", "UI"],
     },
     {
-      projectName: "Perfect Soup! (In Progress)",
-      image: "images/perfectsoup.png",
+      projectName: "DePaul VARC Lab Escape Room Demo",
+      image: "images/escaperoom.png",
       summary:
-        "2D Platformer Metroidvania with smooth movement, complex map structure, and comprehensive dialogue and quest systems.",
-      preview: "https://www.youtube.com/embed/MS-Cs6degMM?si=Q4dItSqXtZagCm24",
-      techStack: ["Unity", "C#", "UI"],
+        "Virtual reality escape room for communications research with comprehensive interactivity using Unity's Autohand plugin.",
+      preview: "https://www.youtube.com/embed/mAUW4DdMD-s?si=JJZtom2y831tapsB",
+      techStack: ["Unity", "C#", "Autohand"],
     },
     {
       projectName: "DePaul OSI Involvement Calculator",
@@ -115,13 +123,23 @@ export const projects = {
       preview: "https://digi-lab.itch.io/avatar-learner",
       techStack: ["Unity", "C#", "UI"],
     },
+  ],
+  physicalGames: [
     {
-      projectName: "Eels on Wheels",
-      image: "images/eels.png",
+      projectName: "Buddy Abroad",
+      image: "images/buddyabroad.jpg",
       summary:
-        "Physics-based co-op endless runner featuring simple but highly engineered controls. Features two eels attempting to ride a bicycle together, to mixed success.",
-      preview: "https://cranebean.itch.io/eelgame",
-      techStack: ["Unity", "C#"],
+        "<b>Won Serious Play 2024 Gold Medal for Tabletop/Board Games.</b> Developed mechanics and helped balance card game with the purpose of helping inform students preparing for study abroad trips.",
+      preview: "https://www.thegamecrafter.com/games/buddy-abroad",
+      techStack: ["Mechanic Design", "Graphic Design", "Playtesting"],
+    },
+    {
+      projectName: "Daedalus' Labyrinth",
+      image: "images/buddyabroad.jpg",
+      summary:
+        "<b>Won Best Analog Game and Outstanding Achievement in Game Design at gamebIITes 2022.</b> Designed gameplay and built both prototype and final game board for cooperative strategy game.",
+      preview: "https://www.youtube.com/embed/jExn0od2SS8?si=wXY9DFhuQjpFO8Bx",
+      techStack: ["Game Design", "Prototyping", "Playtesting"]
     },
   ],
   softwareProjects: [
@@ -153,16 +171,6 @@ export const projects = {
       techStack: ["C++"],
     },
   ],
-  physicalGames: [
-    {
-      projectName: "Buddy Abroad",
-      image: "images/buddyabroad.jpg",
-      summary:
-        "<b>Won Serious Play 2024 Gold Medal for Tabletop/Board Games.</b> Developed mechanics and helped balance card game with the purpose of helping inform students preparing for study abroad trips.",
-      preview: "https://www.thegamecrafter.com/games/buddy-abroad",
-      techStack: ["Mechanic Design", "Graphic Design"],
-    },
-  ],
 };
 
 export const experience = [
@@ -171,7 +179,8 @@ export const experience = [
     duration: "March 2022 - Present",
     subtitle: "Lead Programmer",
     details: 
-    ["Programmed instructional games for classroom and research use.",
+    [
+     "Programmed instructional games for classroom and research use.",
      "Developed several 2D and 3D Unity projects, a handful of which were fully UI-based.",
      "Worked alongside a tight-knit team to make experiences the best that they can be.",
      "Took on most digital projects as the sole programmer",
@@ -190,12 +199,11 @@ export const education = [
     subtitle: "DePaul University, Chicago",
     details: [],
     tags: [
+      "Playtesting",
+      "Advanced Game Design",
       "Practical Scripting for Games",
-      "Data Structures",
-      "Optimized C++",
       "Object-Oriented Game Development",
-      "Linear Algebra",
-      "Graphics Programming",
+      "History and Design of TTRPGs",
       "Game Engine Development",
     ],
     icon: "graduation-cap",

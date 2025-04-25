@@ -486,8 +486,8 @@ fetchBlogsFromMedium(medium);
 fetchGitConnectedData(gitConnected);
 
 populateProjects(softwareProjects, "web-projects");
-populateProjects(digitalGames, "software-projects");
 populateProjects(physicalGames, "android-projects");
+populateProjects(digitalGames, "software-projects");
 
 populateExp_Edu(experience, "experience");
 populateExp_Edu(education, "education");
