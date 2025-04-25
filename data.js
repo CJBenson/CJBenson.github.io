@@ -88,7 +88,7 @@ export const projects = {
       image: "images/perfectsoup.png",
       summary:
         "2D Platformer with smooth satisfying movement and a comprehensive dialogue and quest system.",
-      preview: "https://www.youtube.com/embed/MS-Cs6degMM?si=Q4dItSqXtZagCm24",
+      preview: "https://www.youtube.com/embed/e4tdJ8oModc?si=H9fVLtMlx-YTt8og",
       techStack: ["Unity", "C#", "UI", "Playtesting"],
     },
     {
