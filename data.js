@@ -135,10 +135,10 @@ export const projects = {
     },
     {
       projectName: "Daedalus' Labyrinth",
-      image: "images/buddyabroad.jpg",
+      image: "images/Labyrinth.jpg",
       summary:
         "<b>Won Best Analog Game and Outstanding Achievement in Game Design at gamebIITes 2022.</b> Designed gameplay and built both prototype and final game board for cooperative strategy game.",
-      preview: "https://www.youtube.com/embed/jExn0od2SS8?si=wXY9DFhuQjpFO8Bx",
+      preview: "https://www.youtube.com/embed/hW3w5i5IhAs?si=FNBjJVW9Jt3rbn4i",
       techStack: ["Game Design", "Prototyping", "Playtesting"]
     },
   ],
