@@ -141,6 +141,14 @@ export const projects = {
       preview: "https://www.youtube.com/embed/hW3w5i5IhAs?si=FNBjJVW9Jt3rbn4i",
       techStack: ["Game Design", "Prototyping", "Playtesting"]
     },
+    {
+      projectName: "Get Out of Hell Free",
+      image: "images/hell.png",
+      summary:
+        "Designed a hack of the TTRPG 'Definitely Wizards' where players play as demons with a second chance to get into Heaven, and who must hide their evil urges to do so.",
+      preview: "https://cranebean.itch.io/get-out-of-hell-free",
+      techStack: ["Game Design", "TTRPG Design", "Graphic Design"]
+    },
   ],
   softwareProjects: [
     {
