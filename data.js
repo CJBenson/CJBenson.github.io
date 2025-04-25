@@ -187,7 +187,18 @@ export const experience = [
      "Interfaced with clients and made sure their expectations matched our team's capabilities.",
      "Continuous mentorship of a junior employee to fill my role upon graduation."
     ],
-    tags: ["Unity", "C#", "Jira"],
+    tags: ["Unity", "C#", "Git", "Jira"],
+    icon: "qrcode ",
+  },
+  {
+    title: "Game Developers Conference",
+    duration: "March 2025",
+    subtitle: "Conference Associate",
+    details: 
+    [
+     "Worked with a group of other dedicated, thoughtful CAs to assist both attendees and speakers and ensure they had the experience of a lifetime."
+    ],
+    tags: [],
     icon: "qrcode ",
   }
 ];
