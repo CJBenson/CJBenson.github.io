@@ -1,5 +1,5 @@
 export const bio = [
-  "Hi there! I'm Crane Benson, a game designer, gameplay programmer, and student with experience in mechanic design, level design, playtesting, and prototyping.",
+  "Hi there! I'm Crane Benson, a game designer, programmer, and technical artist with experience in user interface design, level design, systems programming, and technical art.",
   "I am driven by a strong desire to deliver fun, fulfilling, and polished experiences to both players and learners while challenging myself and actively improving. I love all forms of game development, but I have a determined passion for learning games, experiences that transcend the entertainment/artistic space and serve a significant purpose.",
   "Feel free to reach out!",
 ];
@@ -59,30 +59,16 @@ export const skills = [
     color: "3",
     percentage: "80",
   },
-//   {
-//     title: "Analytics",
-//     skillName: "CleverTap, Countly",
-//     color: "5",
-//     percentage: "50",
-//   },
-//   {
-//     title: "IDE",
-//     skillName: "VS Code",
-//     color: "6",
-//     percentage: "70",
-//   },
+  {
+    title: "General",
+    skillName: "Independent Work",
+    color: "6",
+    percentage: "60",
+  },
 ];
 
 export const projects = {
   digitalGames: [
-    {
-      projectName: "Eels on Wheels",
-      image: "images/eels.png",
-      summary:
-        "Physics-based co-op endless runner featuring simple but highly engineered controls. Features two eels attempting to ride a bicycle together, to mixed success.",
-      preview: "https://cranebean.itch.io/eelgame",
-      techStack: ["Unity", "C#", "Physics"],
-    },
     {
       projectName: "Perfect Soup!",
       image: "images/perfectsoup.png",
@@ -92,12 +78,28 @@ export const projects = {
       techStack: ["Unity", "C#", "UI", "Playtesting"],
     },
     {
+      projectName: "DePaul OSI Involvement Calculator",
+      image: "images/involvementcalculator.png",
+      summary:
+        "Questionnaire that returns campus groups of interest based on student's answers. Includes systems for reading and parsing spreadsheet data as well as secure server-side email functionality with Node.js.",
+      preview: "https://digi-lab.itch.io/osi-calculator",
+      techStack: ["Unity", "C#", "UI", "Node.js"],
+    },
+    {
       projectName: "UIC Respirator Training Sim",
       image: "images/uic.png",
       summary:
         "Simulation for UIC research on interactive respirator training as a more effective means than the existing OSHA framework.",
       preview: "https://digi-lab.itch.io/uic-respirator-training",
-      techStack: ["Unity", "C#", "articy:draft", "UI"],
+      techStack: ["Unity", "C#", "UI", "articy:draft"],
+    },
+    {
+      projectName: "DePaul 'Who Are You as a Learner?' Avatar Creator",
+      image: "images/avatar-creator.png",
+      summary:
+        "UI-based character avatar creator with various menus, color selection, and image export capability.",
+      preview: "https://digi-lab.itch.io/avatar-learner",
+      techStack: ["Unity", "C#", "UI"],
     },
     {
       projectName: "DePaul VARC Lab Escape Room Demo",
@@ -108,20 +110,12 @@ export const projects = {
       techStack: ["Unity", "C#", "Autohand"],
     },
     {
-      projectName: "DePaul OSI Involvement Calculator",
-      image: "images/involvementcalculator.png",
+      projectName: "Eels on Wheels",
+      image: "images/eels.png",
       summary:
-        "Questionnaire that returns campus groups of interest based on student's answers. Includes systems for reading and parsing spreadsheet data as well as secure server-side email functionality with Node.js.",
-      preview: "https://digi-lab.itch.io/osi-calculator",
-      techStack: ["Unity", "C#", "Node.js", "UI"],
-    },
-    {
-      projectName: "DePaul 'Who Are You as a Learner?' Avatar Creator",
-      image: "images/avatar-creator.png",
-      summary:
-        "UI-based character avatar creator with various menus, color selection, and image export capability.",
-      preview: "https://digi-lab.itch.io/avatar-learner",
-      techStack: ["Unity", "C#", "UI"],
+        "Physics-based co-op endless runner featuring simple but highly engineered controls. Features two eels attempting to ride a bicycle together.",
+      preview: "https://cranebean.itch.io/eelgame",
+      techStack: ["Unity", "C#", "Physics"],
     },
   ],
   physicalGames: [
@@ -189,7 +183,7 @@ export const experience = [
     details: 
     [
      "Programmed instructional games for classroom and research use.",
-     "Developed several 2D and 3D Unity projects, a handful of which were fully UI-based.",
+     "Developed several 2D and 3D Unity projects, several of which were fully UI-based.",
      "Worked alongside a tight-knit team to make experiences the best that they can be.",
      "Took on most digital projects as the sole programmer",
      "Interfaced with clients and made sure their expectations matched our team's capabilities.",
@@ -214,7 +208,7 @@ export const experience = [
 export const education = [
   {
     title: "BS in Game Progamming",
-    duration: "2021 - Present",
+    duration: "2021 - 2025",
     subtitle: "DePaul University, Chicago",
     details: [],
     tags: [
