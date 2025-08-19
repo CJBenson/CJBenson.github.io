@@ -1,5 +1,5 @@
 export const bio = [
-  "Hi there! I'm Crane Benson, a game designer, programmer, and technical artist with experience in user interface design, level design, systems programming, and technical art.",
+  "Hi there! I'm Crane Benson, a game designer and programmer with experience in user interface design, level design, systems programming, and technical art.",
   "I am driven by a strong desire to deliver fun, fulfilling, and polished experiences to both players and learners while challenging myself and actively improving. I love all forms of game development, but I have a determined passion for learning games, experiences that transcend the entertainment/artistic space and serve a significant purpose.",
   "Feel free to reach out!",
 ];
