@@ -70,20 +70,28 @@ export const skills = [
 export const projects = {
   digitalGames: [
     {
+      projectName: "Sankofa Seasons",
+      image: "images/perfectsoup.png",
+      summary:
+        "Programmed a save system and pot/story data for game about discovering real people's life stories through mementos.",
+      preview: "https://www.youtube.com/embed/e4tdJ8oModc?si=H9fVLtMlx-YTt8og",
+      techStack: ["Unreal 5", "Blueprints", "C++", "Data Management", "Gameplay Programming"],
+    },
+    {
       projectName: "Perfect Soup!",
       image: "images/perfectsoup.png",
       summary:
-        "2D Platformer with smooth satisfying movement and a comprehensive dialogue and quest system.",
+        "2D Platformer with smooth satisfying movement and a comprehensive dialogue and quest system. Acted as the programmer for a team of 4.",
       preview: "https://www.youtube.com/embed/e4tdJ8oModc?si=H9fVLtMlx-YTt8og",
-      techStack: ["Unity", "C#", "UI", "Playtesting"],
+      techStack: ["Unity", "C#", "UI", "Playtesting", "Gameplay Programming"],
     },
     {
       projectName: "DePaul OSI Involvement Calculator",
       image: "images/involvementcalculator.png",
       summary:
-        "Questionnaire that returns campus groups of interest based on student's answers. Includes systems for reading and parsing spreadsheet data as well as secure server-side email functionality with Node.js.",
+        "Wrote all scripts for questionnaire that returns campus groups of interest based on student's answers. Includes systems for reading and parsing spreadsheet data as well as secure server-side email functionality with Node.js.",
       preview: "https://digi-lab.itch.io/osi-calculator",
-      techStack: ["Unity", "C#", "UI", "Node.js"],
+      techStack: ["Unity", "C#", "UI", "Node.js", "Gameplay Programming"],
     },
     {
       projectName: "UIC Respirator Training Sim",
@@ -91,7 +99,7 @@ export const projects = {
       summary:
         "Simulation for UIC research on interactive respirator training as a more effective means than the existing OSHA framework.",
       preview: "https://digi-lab.itch.io/uic-respirator-training",
-      techStack: ["Unity", "C#", "UI", "articy:draft"],
+      techStack: ["Unity", "C#", "UI", "articy:draft", "Gameplay Programming"],
     },
     {
       projectName: "DePaul 'Who Are You as a Learner?' Avatar Creator",
@@ -99,7 +107,7 @@ export const projects = {
       summary:
         "UI-based character avatar creator with various menus, color selection, and image export capability.",
       preview: "https://digi-lab.itch.io/avatar-learner",
-      techStack: ["Unity", "C#", "UI"],
+      techStack: ["Unity", "C#", "UI", "Gameplay Programming"],
     },
     {
       projectName: "DePaul VARC Lab Escape Room Demo",
@@ -107,15 +115,15 @@ export const projects = {
       summary:
         "Virtual reality escape room for communications research with comprehensive interactivity using Unity's Autohand plugin.",
       preview: "https://www.youtube.com/embed/mAUW4DdMD-s?si=JJZtom2y831tapsB",
-      techStack: ["Unity", "C#", "Autohand"],
+      techStack: ["Unity", "C#", "Autohand", "Gameplay Programming"],
     },
     {
       projectName: "Eels on Wheels",
       image: "images/eels.png",
       summary:
-        "Physics-based co-op endless runner featuring simple but highly engineered controls. Features two eels attempting to ride a bicycle together.",
+        "Physics-based co-op endless runner featuring simple but highly engineered controls. Features two eels attempting to ride a bicycle together. Acted as programmer on a team of 3.",
       preview: "https://cranebean.itch.io/eelgame",
-      techStack: ["Unity", "C#", "Physics"],
+      techStack: ["Unity", "C#", "Physics", "Gameplay Programming"],
     },
   ],
   physicalGames: [
@@ -150,18 +158,18 @@ export const projects = {
       image: "images/magnussentanks.png",
       video: "https://www.youtube.com/embed/pCGNVLSN4to?si=KdkHU32ZmRMlRXee",
       summary:
-        "Developed a basic C++ 3D game engine, including a demo tank game.",
+        "Developed a 3D game engine in C++, including a demo tank game.",
       preview: "https://github.com/CJBenson/Magnussen-Engine",
-      techStack: ["C++", "DirectX 11", "HLSL"],
+      techStack: ["C++", "DirectX 11", "HLSL", "Systems Programming", "Graphics Programming"],
     },
     {
-      projectName: "FABRIK Inverse Kinematics",
+      projectName: "Magnussen Inverse Kinematics",
       image: "images/ik.png",
       video: "https://www.youtube.com/embed/4UHBbXpiQiI?si=bm-BErmLCa3hOlot",
       summary:
         "Developed a simple and comprehensive FABRIK solver in the Magnussen Engine.",
       preview: "https://cjbenson.github.io/",
-      techStack: ["C++"],
+      techStack: ["C++", "Tool Programming"],
     },
     {
       projectName: "Centipede Recreation",
