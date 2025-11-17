@@ -75,7 +75,7 @@ export const projects = {
       summary:
         "Programmed a save system and pot/story data for game about discovering real people's stories through mementos.",
       preview: "https://cjbenson.github.io/",
-      techStack: ["Unreal 5", "Blueprints", "C++", "Data Management", "Gameplay Programming"],
+      techStack: ["Unreal Engine 5", "Blueprints", "C++", "Data Management", "Gameplay Programming"],
     },
     {
       projectName: "Perfect Soup!",
