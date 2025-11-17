@@ -71,10 +71,10 @@ export const projects = {
   digitalGames: [
     {
       projectName: "Sankofa Seasons",
-      image: "images/perfectsoup.png",
+      image: "images/sankofa.png",
       summary:
-        "Programmed a save system and pot/story data for game about discovering real people's life stories through mementos.",
-      preview: "https://www.youtube.com/embed/e4tdJ8oModc?si=H9fVLtMlx-YTt8og",
+        "Programmed a save system and pot/story data for game about discovering real people's stories through mementos.",
+      preview: "https://cjbenson.github.io/",
       techStack: ["Unreal 5", "Blueprints", "C++", "Data Management", "Gameplay Programming"],
     },
     {
