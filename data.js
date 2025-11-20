@@ -186,7 +186,7 @@ export const projects = {
 export const experience = [
   {
     title: "DePaul Instructional Game and Innovation Lab (DIGI Lab)",
-    duration: "March 2022 - Present",
+    duration: "March 2022 - September 2025",
     subtitle: "Lead Programmer",
     details: 
     [
