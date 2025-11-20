@@ -7,7 +7,7 @@ export const bio = [
 export const skills = [
   {
     title: "Technical",
-    skillName: "C++, C#, Unreal Blueprints",
+    skillName: "Unity, C#",
     color: "1",
     percentage: "80",
   },
@@ -19,7 +19,7 @@ export const skills = [
   },
   {
     title: "Technical",
-    skillName: "Unity, Unreal, Visual Studio",
+    skillName: "Unreal Engine 5, C++, Blueprints",
     color: "6",
     percentage: "60",
   },
@@ -55,7 +55,7 @@ export const skills = [
   },
   {
     title: "Technical",
-    skillName: "Prototyping & Playtesting",
+    skillName: "Prototyping, Refactoring, Debugging",
     color: "3",
     percentage: "80",
   },
