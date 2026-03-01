@@ -68,7 +68,7 @@ export const skills = [
 ];
 
 export const projects = {
-  digitalGames: [
+  gameplayProgramming: [
     {
       projectName: "Sankofa Seasons",
       image: "images/sankofa.png",
@@ -126,7 +126,7 @@ export const projects = {
       techStack: ["Unity", "C#", "Physics", "Gameplay Programming"],
     },
   ],
-  physicalGames: [
+  gameDesign: [
     {
       projectName: "Buddy Abroad",
       image: "images/buddyabroad.jpg",
@@ -152,7 +152,7 @@ export const projects = {
       techStack: ["Game Design", "TTRPG Design", "Graphic Design"]
     },
   ],
-  softwareProjects: [
+  systemsProgramming: [
     {
       projectName: "Magnussen Engine",
       image: "images/magnussentanks.png",

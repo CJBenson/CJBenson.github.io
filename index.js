@@ -9,7 +9,7 @@ import {
 
 import { URLs } from './user-data/urls.js';
 
-const { softwareProjects, digitalGames, physicalGames } =
+const { systemsProgramming, gameplayProgramming, gameDesign } =
   projects;
 const { medium, gitConnected } = URLs;
 
@@ -485,9 +485,9 @@ populateSkills(skills, "skills");
 fetchBlogsFromMedium(medium);
 fetchGitConnectedData(gitConnected);
 
-populateProjects(softwareProjects, "web-projects");
-populateProjects(physicalGames, "android-projects");
-populateProjects(digitalGames, "software-projects");
+populateProjects(systemsProgramming, "web-projects");
+populateProjects(gameDesign, "android-projects");
+populateProjects(gameplayProgramming, "software-projects");
 
 populateExp_Edu(experience, "experience");
 populateExp_Edu(education, "education");
