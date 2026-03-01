@@ -70,20 +70,20 @@ export const skills = [
 export const projects = {
   gameplayProgramming: [
     {
-      projectName: "Sankofa Seasons",
-      image: "images/sankofa.png",
-      summary:
-        "Programmed a save system and pot/story data for game about discovering real people's stories through mementos.",
-      preview: "https://cjbenson.github.io/",
-      techStack: ["Unreal Engine 5", "Blueprints", "C++", "Data Management", "Gameplay Programming"],
-    },
-    {
       projectName: "Perfect Soup!",
       image: "images/perfectsoup.png",
       summary:
         "2D Platformer with smooth satisfying movement and a comprehensive dialogue and quest system. Acted as the programmer for a team of 4.",
       preview: "https://www.youtube.com/embed/e4tdJ8oModc?si=H9fVLtMlx-YTt8og",
       techStack: ["Unity", "C#", "UI", "Playtesting", "Gameplay Programming"],
+    },
+    {
+      projectName: "Sankofa Seasons",
+      image: "images/sankofa.png",
+      summary:
+        "Programmed a save system and pot/story data for game about discovering real people's stories through mementos.",
+      preview: "https://cjbenson.github.io/",
+      techStack: ["Unreal Engine 5", "Blueprints", "C++", "Data Management", "Gameplay Programming"],
     },
     {
       projectName: "DePaul OSI Involvement Calculator",
