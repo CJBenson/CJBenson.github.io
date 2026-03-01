@@ -82,7 +82,7 @@ export const projects = {
       image: "images/sankofa.png",
       summary:
         "Programmed a save system and pot/story data for game about discovering real people's stories through mementos.",
-      preview: "https://cjbenson.github.io/",
+      preview: "https://ogs.cdm.depaul.edu/sankofa-seasons/",
       techStack: ["Unreal Engine 5", "Blueprints", "C++", "Data Management", "Gameplay Programming"],
     },
     {
